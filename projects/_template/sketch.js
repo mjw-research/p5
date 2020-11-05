@@ -1,11 +1,15 @@
 function setup() {
   angleMode(DEGREES);
-  createCanvas(650, 650, P2D);
-  background(0);
-  stroke(0, 255, 0);
-  noFill();
+  createCanvas(800, 800, P2D);
+  background(68, 71, 90);
+  stroke(139, 233, 253);
+  noFill()
+  textAlign(CENTER, CENTER)
 }
 
 function draw() {
-  // drawn every tick
+  textSize(32);
+  strokeWeight(0.5)
+  text('Hello, World!', width/2, height/2-25);
+  text('Template Project by MarvinJWendt!', width/2, height/2+25);
 }
